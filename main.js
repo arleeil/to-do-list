@@ -10,7 +10,7 @@ add.addEventListener('click',()=>{
     let task = input.value
     toDoList.push(task)
     console.log(toDoList)
-    output.innerHTML+= `<ul><li class = 'decorated_task'>${task}</li></ul><span>Yea</span>`
+    output.innerHTML+= `<ul><li class = 'decorated_task'>${task}</li></ul>`
     output.style = 'text-align:left'
 })
 
